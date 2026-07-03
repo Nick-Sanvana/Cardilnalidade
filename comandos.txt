@@ -6,3 +6,8 @@ SELECT * FROM nome_da_tabela;
 
 //comando para Gravar dados
 INSERT INTO nome_da_tabela(Atributos_da_tabela) VALEUS (Valores_da_tabela)
+
+//Mudar algo da Tabela
+UPDATE usuarios
+set nome ='Denise'
+WHERE id = 5
