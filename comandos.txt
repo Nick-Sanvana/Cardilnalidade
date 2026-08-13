@@ -15,3 +15,20 @@ WHERE usuarios_id = numero_id
 //Adicionar coluna
 ALTER TABLE detalhes_usuarios
 ADD COLUMN coluna_nova VARCHAR(15);
+
+//Apagae uma tabelas
+
+//Juntar duas tabelas
+Left join //pega as informações da tabela da esquerda e o meio
+Right join // pega as informações da tabela da direita e o meio
+Full join// pega as informações da duas tabela e junta em uma
+join  // pega as informações do meio da tabela
+
+SELECT
+   coluna1, coluna2 //pode colocar o quanto quiser. Isto faz para que apenas estas colunas apareçam quando executa
+FROM
+   Tabela1 // primeira tabela é a da esquerda
+JOIN
+   Tabela2 // segunda tabela é a da direita
+ON
+ ligue  
