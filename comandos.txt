@@ -16,7 +16,9 @@ WHERE usuarios_id = numero_id
 ALTER TABLE detalhes_usuarios
 ADD COLUMN coluna_nova VARCHAR(15);
 
-//Apagae uma tabelas
+//Apagar uma coluna na tabela
+ALTER TABLE detalhes_usuarios
+DROP COLUMN nome_da_coluna
 
 //Juntar duas tabelas
 Left join //pega as informações da tabela da esquerda e o meio
@@ -31,4 +33,5 @@ FROM
 JOIN
    Tabela2 // segunda tabela é a da direita
 ON
- ligue  
+ é como se fosse um ligar, você liga tal coluna a outra 
+ tabela.coluna_que_você_quiser = Tabela2.coluna_que_você_quiser
