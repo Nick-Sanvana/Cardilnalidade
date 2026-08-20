@@ -35,3 +35,29 @@ JOIN
 ON
  é como se fosse um ligar, você liga tal coluna a outra 
  tabela.coluna_que_você_quiser = Tabela2.coluna_que_você_quiser
+
+ --CREATE TABLE produtos(
+--id serial PRIMARY key,
+--item VARCHAR (100) NOT NULL,
+--qtd_estoque INT,
+--custo_unitario DECIMAL(10, 2)
+
+--)
+
+-- INSERT into produtos(item, qtd_estoque, custo_unitario)
+-- VALUES
+-- ('LCI', 8, 1000),
+-- ('LCA', 6, 1000),
+-- ('MXRF11', 50, 10.50),
+-- ('CPFF11', 40, 8.90),
+-- ('Tesouro Selic', 3, 1200),
+-- ('Tesouro IPCA', 2, 1500),
+-- ('PETR4', 20, 38.50),
+-- ('VALE3', 15, 65),
+-- ('ITUb4', 25, 32)
+
+-- SELECT 
+-- id,
+-- qtd_estoque,
+-- custo_unitario,
+-- (qtd_estoque * custo_unitario) as valor_total_estoque from produtos 
